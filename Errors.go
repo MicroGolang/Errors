@@ -5,15 +5,15 @@
 ** @Filename:				error.go
 **
 ** @Last modified by:		Tbouder
-** @Last modified time:		Thursday 26 September 2019 - 12:07:06
+** @Last modified time:		Thursday 26 September 2019 - 12:31:56
 *******************************************************************************/
 
 package		error
 
 import		"errors"
 import		"net/http"
-import		"gitlab.com/gopackages/logs"
-import		"gitlab.com/gopackages/restresponse"
+import		"github.com/microgolang/logs"
+import		"github.com/microgolang/httpResponse"
 
 /*Handle **********************************************************************
 *	Handler an error with a recover in order to stop the current process and
