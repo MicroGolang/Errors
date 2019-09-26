@@ -5,10 +5,10 @@
 ** @Filename:				codes.go
 **
 ** @Last modified by:		Tbouder
-** @Last modified time:		Thursday 26 September 2019 - 11:41:22
+** @Last modified time:		Thursday 26 September 2019 - 12:45:09
 *******************************************************************************/
 
-package		error
+package		errors
 
 const CLIENT_400 = `Something was wrong with the request`
 const CLIENT_401 = `You are not allowed to access this ressource`

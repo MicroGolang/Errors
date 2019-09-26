@@ -5,10 +5,10 @@
 ** @Filename:				error.go
 **
 ** @Last modified by:		Tbouder
-** @Last modified time:		Thursday 26 September 2019 - 12:31:56
+** @Last modified time:		Thursday 26 September 2019 - 12:45:07
 *******************************************************************************/
 
-package		error
+package		errors
 
 import		"errors"
 import		"net/http"
