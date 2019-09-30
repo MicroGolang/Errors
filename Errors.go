@@ -5,7 +5,7 @@
 ** @Filename:				error.go
 **
 ** @Last modified by:		Tbouder
-** @Last modified time:		Thursday 26 September 2019 - 12:45:07
+** @Last modified time:		Monday 30 September 2019 - 10:21:56
 *******************************************************************************/
 
 package		errors
@@ -21,7 +21,7 @@ import		"github.com/microgolang/httpResponse"
 ******************************************************************************/
 func	Handle(w http.ResponseWriter) {
 	if err := recover(); (err != nil) {
-		response.ResolveWithError(w, New(`Unexpected Error`), 500)
+		httphelpers.ResolveWithError(w, New(`Unexpected Error`), 500)
 	}
 }
 /*HandleSimple ****************************************************************
