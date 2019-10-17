@@ -5,7 +5,7 @@
 ** @Filename:				error.go
 **
 ** @Last modified by:		Tbouder
-** @Last modified time:		Monday 30 September 2019 - 10:21:56
+** @Last modified time:		Monday 14 October 2019 - 12:10:11
 *******************************************************************************/
 
 package		errors
